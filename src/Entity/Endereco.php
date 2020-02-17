@@ -73,16 +73,26 @@ class Endereco
      */
     private $pessoaId;
 
+    /**
+     * @return int|null
+     */
     public function getEnderecoId(): ?int
     {
         return $this->enderecoId;
     }
 
+    /**
+     * @return string|null
+     */
     public function getLogradouroDescricao(): ?string
     {
         return $this->logradouroDescricao;
     }
 
+    /**
+     * @param string|null $logradouroDescricao
+     * @return $this
+     */
     public function setLogradouroDescricao(?string $logradouroDescricao): self
     {
         $this->logradouroDescricao = $logradouroDescricao;
@@ -90,11 +100,18 @@ class Endereco
         return $this;
     }
 
+    /**
+     * @return int|null
+     */
     public function getNumero(): ?int
     {
         return $this->numero;
     }
 
+    /**
+     * @param int|null $numero
+     * @return $this
+     */
     public function setNumero(?int $numero): self
     {
         $this->numero = $numero;
@@ -102,11 +119,18 @@ class Endereco
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getCep(): ?string
     {
         return $this->cep;
     }
 
+    /**
+     * @param string $cep
+     * @return $this
+     */
     public function setCep(string $cep): self
     {
         $this->cep = $cep;
@@ -114,11 +138,18 @@ class Endereco
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getCidade(): ?string
     {
         return $this->cidade;
     }
 
+    /**
+     * @param string $cidade
+     * @return $this
+     */
     public function setCidade(string $cidade): self
     {
         $this->cidade = $cidade;
@@ -126,11 +157,18 @@ class Endereco
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getBairro(): ?string
     {
         return $this->bairro;
     }
 
+    /**
+     * @param string $bairro
+     * @return $this
+     */
     public function setBairro(string $bairro): self
     {
         $this->bairro = $bairro;
@@ -138,11 +176,18 @@ class Endereco
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getEstado(): ?string
     {
         return $this->estado;
     }
 
+    /**
+     * @param string $estado
+     * @return $this
+     */
     public function setEstado(string $estado): self
     {
         $this->estado = $estado;
@@ -150,11 +195,18 @@ class Endereco
         return $this;
     }
 
+    /**
+     * @return Pessoa|null
+     */
     public function getPessoaId(): ?Pessoa
     {
         return $this->pessoaId;
     }
 
+    /**
+     * @param Pessoa|null $pessoaId
+     * @return $this
+     */
     public function setPessoaId(?Pessoa $pessoaId): self
     {
         $this->pessoaId = $pessoaId;

@@ -28,16 +28,26 @@ class Tipotelefone
      */
     private $nome;
 
+    /**
+     * @return int|null
+     */
     public function getTipoTelefoneId(): ?int
     {
         return $this->tipoTelefoneId;
     }
 
+    /**
+     * @return string|null
+     */
     public function getNome(): ?string
     {
         return $this->nome;
     }
 
+    /**
+     * @param string $nome
+     * @return $this
+     */
     public function setNome(string $nome): self
     {
         $this->nome = $nome;

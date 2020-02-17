@@ -66,16 +66,26 @@ class Pessoafisica
      */
     private $pessoaId;
 
+    /**
+     * @return int|null
+     */
     public function getPessoaFisicaId(): ?int
     {
         return $this->pessoaFisicaId;
     }
 
+    /**
+     * @return string|null
+     */
     public function getNome(): ?string
     {
         return $this->nome;
     }
 
+    /**
+     * @param string $nome
+     * @return $this
+     */
     public function setNome(string $nome): self
     {
         $this->nome = $nome;
@@ -83,11 +93,18 @@ class Pessoafisica
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getCpf(): ?string
     {
         return $this->cpf;
     }
 
+    /**
+     * @param string $cpf
+     * @return $this
+     */
     public function setCpf(string $cpf): self
     {
         $this->cpf = $cpf;
@@ -95,11 +112,18 @@ class Pessoafisica
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getRg(): ?string
     {
         return $this->rg;
     }
 
+    /**
+     * @param string|null $rg
+     * @return $this
+     */
     public function setRg(?string $rg): self
     {
         $this->rg = $rg;
@@ -107,11 +131,18 @@ class Pessoafisica
         return $this;
     }
 
+    /**
+     * @return \DateTimeInterface|null
+     */
     public function getCreatedAt(): ?\DateTimeInterface
     {
         return $this->createdAt;
     }
 
+    /**
+     * @param \DateTimeInterface|null $createdAt
+     * @return $this
+     */
     public function setCreatedAt(?\DateTimeInterface $createdAt): self
     {
         $this->createdAt = $createdAt;
@@ -119,11 +150,18 @@ class Pessoafisica
         return $this;
     }
 
+    /**
+     * @return \DateTimeInterface|null
+     */
     public function getUpdatedAt(): ?\DateTimeInterface
     {
         return $this->updatedAt;
     }
 
+    /**
+     * @param \DateTimeInterface|null $updatedAt
+     * @return $this
+     */
     public function setUpdatedAt(?\DateTimeInterface $updatedAt): self
     {
         $this->updatedAt = $updatedAt;
@@ -131,11 +169,18 @@ class Pessoafisica
         return $this;
     }
 
+    /**
+     * @return Pessoa|null
+     */
     public function getPessoaId(): ?Pessoa
     {
         return $this->pessoaId;
     }
 
+    /**
+     * @param Pessoa|null $pessoaId
+     * @return $this
+     */
     public function setPessoaId(?Pessoa $pessoaId): self
     {
         $this->pessoaId = $pessoaId;

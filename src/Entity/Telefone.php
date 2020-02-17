@@ -55,16 +55,26 @@ class Telefone
      */
     private $tipoTelefone;
 
+    /**
+     * @return int|null
+     */
     public function getTelefoneId(): ?int
     {
         return $this->telefoneId;
     }
 
+    /**
+     * @return string|null
+     */
     public function getDdd(): ?string
     {
         return $this->ddd;
     }
 
+    /**
+     * @param string $ddd
+     * @return $this
+     */
     public function setDdd(string $ddd): self
     {
         $this->ddd = $ddd;
@@ -72,11 +82,18 @@ class Telefone
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getNumero(): ?string
     {
         return $this->numero;
     }
 
+    /**
+     * @param string $numero
+     * @return $this
+     */
     public function setNumero(string $numero): self
     {
         $this->numero = $numero;
@@ -84,11 +101,18 @@ class Telefone
         return $this;
     }
 
+    /**
+     * @return Pessoa|null
+     */
     public function getPessoaId(): ?Pessoa
     {
         return $this->pessoaId;
     }
 
+    /**
+     * @param Pessoa|null $pessoaId
+     * @return $this
+     */
     public function setPessoaId(?Pessoa $pessoaId): self
     {
         $this->pessoaId = $pessoaId;
@@ -96,11 +120,18 @@ class Telefone
         return $this;
     }
 
+    /**
+     * @return Tipotelefone|null
+     */
     public function getTipoTelefone(): ?Tipotelefone
     {
         return $this->tipoTelefone;
     }
 
+    /**
+     * @param Tipotelefone|null $tipoTelefone
+     * @return $this
+     */
     public function setTipoTelefone(?Tipotelefone $tipoTelefone): self
     {
         $this->tipoTelefone = $tipoTelefone;

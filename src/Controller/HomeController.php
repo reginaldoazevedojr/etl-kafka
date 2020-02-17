@@ -16,7 +16,6 @@ class HomeController extends AbstractController
 
     public function dashboard(LoggerInterface $logger, MessageGenerator $messageGenerator)
     {
-        throw $this->createNotFoundException('Nao foi encontrado');
         $entityManager = $this->getDoctrine()->getManager();
 
         $associado = new Associado();

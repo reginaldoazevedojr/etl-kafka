@@ -273,16 +273,26 @@ class CiaAssociado
      */
     private $assRgOrgEmissorConjuge;
 
+    /**
+     * @return int|null
+     */
     public function getAssId(): ?int
     {
         return $this->assId;
     }
 
+    /**
+     * @return int|null
+     */
     public function getAssAgeId(): ?int
     {
         return $this->assAgeId;
     }
 
+    /**
+     * @param int|null $assAgeId
+     * @return $this
+     */
     public function setAssAgeId(?int $assAgeId): self
     {
         $this->assAgeId = $assAgeId;
@@ -290,11 +300,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return int|null
+     */
     public function getAssSitId(): ?int
     {
         return $this->assSitId;
     }
 
+    /**
+     * @param int|null $assSitId
+     * @return $this
+     */
     public function setAssSitId(?int $assSitId): self
     {
         $this->assSitId = $assSitId;
@@ -302,11 +319,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssBanCodigo(): ?string
     {
         return $this->assBanCodigo;
     }
 
+    /**
+     * @param string|null $assBanCodigo
+     * @return $this
+     */
     public function setAssBanCodigo(?string $assBanCodigo): self
     {
         $this->assBanCodigo = $assBanCodigo;
@@ -314,11 +338,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssCpf(): ?string
     {
         return $this->assCpf;
     }
 
+    /**
+     * @param string|null $assCpf
+     * @return $this
+     */
     public function setAssCpf(?string $assCpf): self
     {
         $this->assCpf = $assCpf;
@@ -326,11 +357,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssNome(): ?string
     {
         return $this->assNome;
     }
 
+    /**
+     * @param string|null $assNome
+     * @return $this
+     */
     public function setAssNome(?string $assNome): self
     {
         $this->assNome = $assNome;
@@ -338,11 +376,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return \DateTimeInterface|null
+     */
     public function getAssDataInscricao(): ?\DateTimeInterface
     {
         return $this->assDataInscricao;
     }
 
+    /**
+     * @param \DateTimeInterface|null $assDataInscricao
+     * @return $this
+     */
     public function setAssDataInscricao(?\DateTimeInterface $assDataInscricao): self
     {
         $this->assDataInscricao = $assDataInscricao;
@@ -350,11 +395,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssEnderecoRes(): ?string
     {
         return $this->assEnderecoRes;
     }
 
+    /**
+     * @param string|null $assEnderecoRes
+     * @return $this
+     */
     public function setAssEnderecoRes(?string $assEnderecoRes): self
     {
         $this->assEnderecoRes = $assEnderecoRes;
@@ -362,11 +414,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssBairroRes(): ?string
     {
         return $this->assBairroRes;
     }
 
+    /**
+     * @param string|null $assBairroRes
+     * @return $this
+     */
     public function setAssBairroRes(?string $assBairroRes): self
     {
         $this->assBairroRes = $assBairroRes;
@@ -374,11 +433,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssCidadeRes(): ?string
     {
         return $this->assCidadeRes;
     }
 
+    /**
+     * @param string|null $assCidadeRes
+     * @return $this
+     */
     public function setAssCidadeRes(?string $assCidadeRes): self
     {
         $this->assCidadeRes = $assCidadeRes;
@@ -386,11 +452,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssCepRes(): ?string
     {
         return $this->assCepRes;
     }
 
+    /**
+     * @param string|null $assCepRes
+     * @return $this
+     */
     public function setAssCepRes(?string $assCepRes): self
     {
         $this->assCepRes = $assCepRes;
@@ -398,11 +471,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssUfRes(): ?string
     {
         return $this->assUfRes;
     }
 
+    /**
+     * @param string|null $assUfRes
+     * @return $this
+     */
     public function setAssUfRes(?string $assUfRes): self
     {
         $this->assUfRes = $assUfRes;
@@ -410,11 +490,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssEnderecoCom(): ?string
     {
         return $this->assEnderecoCom;
     }
 
+    /**
+     * @param string|null $assEnderecoCom
+     * @return $this
+     */
     public function setAssEnderecoCom(?string $assEnderecoCom): self
     {
         $this->assEnderecoCom = $assEnderecoCom;
@@ -422,11 +509,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssBairroCom(): ?string
     {
         return $this->assBairroCom;
     }
 
+    /**
+     * @param string|null $assBairroCom
+     * @return $this
+     */
     public function setAssBairroCom(?string $assBairroCom): self
     {
         $this->assBairroCom = $assBairroCom;
@@ -434,11 +528,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssCidadeCom(): ?string
     {
         return $this->assCidadeCom;
     }
 
+    /**
+     * @param string|null $assCidadeCom
+     * @return $this
+     */
     public function setAssCidadeCom(?string $assCidadeCom): self
     {
         $this->assCidadeCom = $assCidadeCom;
@@ -446,11 +547,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssUfCom(): ?string
     {
         return $this->assUfCom;
     }
 
+    /**
+     * @param string|null $assUfCom
+     * @return $this
+     */
     public function setAssUfCom(?string $assUfCom): self
     {
         $this->assUfCom = $assUfCom;
@@ -458,11 +566,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssCepCom(): ?string
     {
         return $this->assCepCom;
     }
 
+    /**
+     * @param string|null $assCepCom
+     * @return $this
+     */
     public function setAssCepCom(?string $assCepCom): self
     {
         $this->assCepCom = $assCepCom;
@@ -470,11 +585,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssTelefone1Res(): ?string
     {
         return $this->assTelefone1Res;
     }
 
+    /**
+     * @param string|null $assTelefone1Res
+     * @return $this
+     */
     public function setAssTelefone1Res(?string $assTelefone1Res): self
     {
         $this->assTelefone1Res = $assTelefone1Res;
@@ -482,11 +604,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssTelefone2Res(): ?string
     {
         return $this->assTelefone2Res;
     }
 
+    /**
+     * @param string|null $assTelefone2Res
+     * @return $this
+     */
     public function setAssTelefone2Res(?string $assTelefone2Res): self
     {
         $this->assTelefone2Res = $assTelefone2Res;
@@ -494,11 +623,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssCelularRes(): ?string
     {
         return $this->assCelularRes;
     }
 
+    /**
+     * @param string|null $assCelularRes
+     * @return $this
+     */
     public function setAssCelularRes(?string $assCelularRes): self
     {
         $this->assCelularRes = $assCelularRes;
@@ -506,11 +642,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssTelefone1Com(): ?string
     {
         return $this->assTelefone1Com;
     }
 
+    /**
+     * @param string|null $assTelefone1Com
+     * @return $this
+     */
     public function setAssTelefone1Com(?string $assTelefone1Com): self
     {
         $this->assTelefone1Com = $assTelefone1Com;
@@ -518,11 +661,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssTelefone2Com(): ?string
     {
         return $this->assTelefone2Com;
     }
 
+    /**
+     * @param string|null $assTelefone2Com
+     * @return $this
+     */
     public function setAssTelefone2Com(?string $assTelefone2Com): self
     {
         $this->assTelefone2Com = $assTelefone2Com;
@@ -530,11 +680,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssFaxCom(): ?string
     {
         return $this->assFaxCom;
     }
 
+    /**
+     * @param string|null $assFaxCom
+     * @return $this
+     */
     public function setAssFaxCom(?string $assFaxCom): self
     {
         $this->assFaxCom = $assFaxCom;
@@ -542,11 +699,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssEmailRes(): ?string
     {
         return $this->assEmailRes;
     }
 
+    /**
+     * @param string|null $assEmailRes
+     * @return $this
+     */
     public function setAssEmailRes(?string $assEmailRes): self
     {
         $this->assEmailRes = $assEmailRes;
@@ -554,11 +718,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssEmailCom(): ?string
     {
         return $this->assEmailCom;
     }
 
+    /**
+     * @param string|null $assEmailCom
+     * @return $this
+     */
     public function setAssEmailCom(?string $assEmailCom): self
     {
         $this->assEmailCom = $assEmailCom;
@@ -566,11 +737,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return \DateTimeInterface|null
+     */
     public function getAssDataNascimento(): ?\DateTimeInterface
     {
         return $this->assDataNascimento;
     }
 
+    /**
+     * @param \DateTimeInterface|null $assDataNascimento
+     * @return $this
+     */
     public function setAssDataNascimento(?\DateTimeInterface $assDataNascimento): self
     {
         $this->assDataNascimento = $assDataNascimento;
@@ -578,11 +756,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssNaturalidade(): ?string
     {
         return $this->assNaturalidade;
     }
 
+    /**
+     * @param string|null $assNaturalidade
+     * @return $this
+     */
     public function setAssNaturalidade(?string $assNaturalidade): self
     {
         $this->assNaturalidade = $assNaturalidade;
@@ -590,11 +775,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssNacionalidade(): ?string
     {
         return $this->assNacionalidade;
     }
 
+    /**
+     * @param string|null $assNacionalidade
+     * @return $this
+     */
     public function setAssNacionalidade(?string $assNacionalidade): self
     {
         $this->assNacionalidade = $assNacionalidade;
@@ -602,11 +794,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssRg(): ?string
     {
         return $this->assRg;
     }
 
+    /**
+     * @param string|null $assRg
+     * @return $this
+     */
     public function setAssRg(?string $assRg): self
     {
         $this->assRg = $assRg;
@@ -614,11 +813,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssRgOrgEmissor(): ?string
     {
         return $this->assRgOrgEmissor;
     }
 
+    /**
+     * @param string|null $assRgOrgEmissor
+     * @return $this
+     */
     public function setAssRgOrgEmissor(?string $assRgOrgEmissor): self
     {
         $this->assRgOrgEmissor = $assRgOrgEmissor;
@@ -626,11 +832,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssSexo(): ?string
     {
         return $this->assSexo;
     }
 
+    /**
+     * @param string|null $assSexo
+     * @return $this
+     */
     public function setAssSexo(?string $assSexo): self
     {
         $this->assSexo = $assSexo;
@@ -638,11 +851,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return \DateTimeInterface|null
+     */
     public function getAssDataHomologacao(): ?\DateTimeInterface
     {
         return $this->assDataHomologacao;
     }
 
+    /**
+     * @param \DateTimeInterface|null $assDataHomologacao
+     * @return $this
+     */
     public function setAssDataHomologacao(?\DateTimeInterface $assDataHomologacao): self
     {
         $this->assDataHomologacao = $assDataHomologacao;
@@ -650,11 +870,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssAgencia(): ?string
     {
         return $this->assAgencia;
     }
 
+    /**
+     * @param string|null $assAgencia
+     * @return $this
+     */
     public function setAssAgencia(?string $assAgencia): self
     {
         $this->assAgencia = $assAgencia;
@@ -662,11 +889,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssConta(): ?string
     {
         return $this->assConta;
     }
 
+    /**
+     * @param string|null $assConta
+     * @return $this
+     */
     public function setAssConta(?string $assConta): self
     {
         $this->assConta = $assConta;
@@ -674,11 +908,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssCpfConjuge(): ?string
     {
         return $this->assCpfConjuge;
     }
 
+    /**
+     * @param string|null $assCpfConjuge
+     * @return $this
+     */
     public function setAssCpfConjuge(?string $assCpfConjuge): self
     {
         $this->assCpfConjuge = $assCpfConjuge;
@@ -686,11 +927,18 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssRgConjuge(): ?string
     {
         return $this->assRgConjuge;
     }
 
+    /**
+     * @param string|null $assRgConjuge
+     * @return $this
+     */
     public function setAssRgConjuge(?string $assRgConjuge): self
     {
         $this->assRgConjuge = $assRgConjuge;
@@ -698,17 +946,22 @@ class CiaAssociado
         return $this;
     }
 
+    /**
+     * @return string|null
+     */
     public function getAssRgOrgEmissorConjuge(): ?string
     {
         return $this->assRgOrgEmissorConjuge;
     }
 
+    /**
+     * @param string|null $assRgOrgEmissorConjuge
+     * @return $this
+     */
     public function setAssRgOrgEmissorConjuge(?string $assRgOrgEmissorConjuge): self
     {
         $this->assRgOrgEmissorConjuge = $assRgOrgEmissorConjuge;
 
         return $this;
     }
-
-
 }
