@@ -1,3 +1,7 @@
+CREATE DATABASE db_mutua;
+
+use db_mutua;
+
 create table Pessoa
 (
     PessoaID int identity
@@ -67,5 +71,17 @@ create table Telefone
     PessoaID     int        not null
         constraint Telefone_Pessoa_PessoaID_fk
             references Pessoa
+)
+go
+
+create table Associado
+(
+    AssociadoID int identity
+        constraint Associado_pk
+            primary key nonclustered,
+    Matricula varchar(5),
+    PessoaFisicaID int not null
+        constraint Associado_PessoaFisica_PessoaFisicaID_fk
+            references PessoaFisica
 )
 go

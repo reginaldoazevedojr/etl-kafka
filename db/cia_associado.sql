@@ -1,3 +1,7 @@
+CREATE DATABASE db_ciap;
+
+use db_ciap;
+
 CREATE TABLE [dbo].[CIA_Associado](
 	[Ass_ID] [int] IDENTITY(1,1) NOT NULL,
 	[Ass_Age_ID] [tinyint] NULL,
